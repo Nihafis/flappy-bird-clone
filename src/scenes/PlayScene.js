@@ -11,7 +11,7 @@ class PlayScene extends Phaser.Scene {
         this.bird = null;
         this.pipes = null;
         this.sky = null;
-
+ 
         this.pipeHorizontalDistance = 0;
         this.pipeVerticalDistanceRange = [150, 250];
         this.pipeHorizontalDistanceRange = [300, 450];
