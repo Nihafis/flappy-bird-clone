@@ -99,5 +99,5 @@ class PlayScene extends Phaser.Scene {
         this.bird.body.velocity.y = -this.flapVelocity;
     }
 }
-
+// sdadasdasdasddsdasdasddasd
 export default PlayScene;
