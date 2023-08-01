@@ -23,14 +23,13 @@ class PlayScene extends Phaser.Scene {
         this.load.image('sky', 'assets/sky.png');
         this.load.image('bird', 'assets/bird.png');
         this.load.image('pipe', 'assets/pipe.png');
-        this.load.image('star', 'assets/star.png');
     }
 
     create() {
         this.add.image(0, 0, 'sky').setOrigin(0, 0);
         this.bird = this.physics.add.sprite(this.config.startPosition.x, this.config.startPosition.y, 'bird').setOrigin(0);
         this.bird.body.gravity.y = 400;
-        this.add.image(0, 0, 'star').setOrigin(0, 0);
+    
         
 
         this.pipes = this.physics.add.group();
